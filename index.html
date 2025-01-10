@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/WhatsApp Image 2025-01-08 at 17.22.02_78278543.jpg" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">My Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <!-- <i class="fa-solid fa-circle-xmark"></i> -->
+                </ul>
+                <!-- <i class="fa-solid fa-bars"></i> -->
+                
+            </nav>
+            <div class="header-text">
+                <p>Software Engineer & Web Developer</p>
+                <h1>Hi, I'm <span>Harsh Dodiwan</span><br>From Delhi </h1>
+            </div>
+        </div>
+    </div>
+
+    <!---------------- we make now about section  ------------>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/harsh picture.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>🚀 Aspiring Software Engineer | Machine Learning Enthusiast </p>
+                    <br>
+                    <p> I recently done a Machine Learning Intern at Feynn Labs, where I'm honing my skills in AI&ML and
+                        data analysis. Pursuing my Bachelor of Technology in Software Engineering at Delhi Technological
+                        University, I've developed a strong foundation in Web development and a deep understanding of
+                        data structures and algorithms
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Operating Systems</span><br>Linux ,Window</li>
+                            <li><span>Languages</span><br>Python, C, Cpp, Js</li>
+                            <li><span>Database</span><br>MySQL</li>
+                            <li><span>Tools</span><br>HTML, CSS, Js, Tailwind CSS, Bootstrap, React, Flask, Logisim</li>
+                            <li><span>Course Work</span><br>DSA, DBMS, Os, SDLC, OOPs</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>27 june 2024 - 27 August 2024</span><br>Machine Learning & Data Science Internship
+                                At FEYNN LABS SERVICES <br> (On Internship I worked on AI Product/Service prototyping
+                                and performed market segmentation using machine learning and
+                                data analysis.).
+                                <a href="https://drive.google.com/file/d/1Y85UbUuoLbEKp3fZfDM2fK9kBX1Nfx-O/view?usp=drivesdk  "
+                                    target="_blank"> <i class="fa-solid fa-certificate"></i></a>
+                            </li>
+                            <li><span>August 2023</span><br>Software Engineering Virtual Internship At GOLDMAN SACHS. <a
+                                    href="https://drive.google.com/file/d/109Gf-z-0cUQx6qOhJIbRWrcD-aTZMjnW/view?usp=drivesdk "
+                                    target="_blank"> <i class="fa-solid fa-certificate"></i></a></li>
+                            <li><span>August 2023</span><br>Developer & Technology Internship At ACCENTURE. <a
+                                    href="https://drive.google.com/file/d/10HunTw8wGatChY9NFdvBAdMhvVCcUmXN/view?usp=drivesdk  "
+                                    target="_blank"  > <i class="fa-solid fa-certificate"></i></a></li>
+                            <li><span>August 2023</span><br>Data Visualisation: Empowering Business
+                                with Effective Insights Internship At TATA GROUP. <a
+                                    href="https://drive.google.com/file/d/106cHaYLnCfoID1Gh-kw370eETweFVBun/view"
+                                    target="_blank"> <i class="fa-solid fa-certificate"></i> </a></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022 - Present</span><br>B.Tech In Software Engineering At Delhi Technology
+                                University (DTU)</li>
+                            <li><span>2020</span><br>CBSE(XII) At Kendriya Vidyalaya</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------------------My Project--------------------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/laptop-5421966_1280.jpg" alt="">
+                    <div class="layer">
+                        <h3>Tic-Tac-Toe</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur possimus minima tempore
+                            architecto dignissimos quae ipsam?</p>
+                        <a href="https://tic-tac-toe-omega-teal.vercel.app/">Link</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/laptop-5906214_1280.jpg" alt="">
+                    <div class="layer">
+                        <h3>spotify clone</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur possimus minima tempore
+                            architecto dignissimos quae ipsam?</p>
+                        <a href="">Link</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/laptop-5421966_1280.jpg" alt="">
+                    <div class="layer">
+                        <h3>spotify clone</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur possimus minima tempore
+                            architecto dignissimos quae ipsam?</p>
+                        <a href="">Link</a>
+                    </div>
+                </div>
+
+
+
+
+                <div class="work">
+                    <img src="images/laptop-5421966_1280.jpg" alt="">
+                    <div class="layer">
+                        <h3>spotify clone</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur possimus minima tempore
+                            architecto dignissimos quae ipsam?</p>
+                        <a href="">Link</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/laptop-5906214_1280.jpg" alt="">
+                    <div class="layer">
+                        <h3>spotify clone</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur possimus minima tempore
+                            architecto dignissimos quae ipsam?</p>
+                        <a href="">Link</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/laptop-5421966_1280.jpg" alt="">
+                    <div class="layer">
+                        <h3>spotify clone</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur possimus minima tempore
+                            architecto dignissimos quae ipsam?</p>
+                        <a href="">Link</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+
+
+    <!-- ---------- contact section ---------------- -->
+
+     <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i> Harshdodiwan@gmail.com</p>
+                    <p> <i class="fa-solid fa-phone"></i> 91+ 9958230825</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/harshdodiwan" target="_blank" ><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/harsh-dodiwan-/" target="_blank" ><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100015036738278" target="_blank" ><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/harsh_dodiwan" target="_blank" ><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="images/Harsh Kumar Resume.pdf" download class="button">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name = "submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                    
+                        <input type="email" name="Email" placeholder="Your Email" required>
+    
+                       <!-- <textarea name="Message" rows="6" placeholder="Your Message"></textarea>  -->
+
+                       <textarea name="Message" rows="6" placeholder="Your Message"></textarea> 
+
+                   <button type="submit" class="btn" >Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright © 2025 Harsh Dodiwan. All rights reserved.  </p>
+        </div>
+
+     </div>
+     
+
+
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyl9rJrPtxYv7U8q2Fms8Pt2Ok0nQj976Li2Yg781xNkY1ShyyH_bfIztFo0z2XjRdXTg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = " "
+            },3000)
+            form.reset()
+        } )
+        
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+  
+</html>
